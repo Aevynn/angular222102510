@@ -6,6 +6,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { Dashboard2Component } from './dashboard2/dashboard2.component';
 import { Dashboard3Component } from './dashboard3/dashboard3.component';
 import { RegisterComponent } from './register/register.component';
+import { MahasiswaComponent } from './mahasiswa/mahasiswa.component';
 
 const routes: Routes = [
   { path: 'admin', component: AdminComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'dashboard3', component: Dashboard3Component },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
+  { path: 'mahasiswa', component: MahasiswaComponent },
   { path: '', redirectTo: 'login', pathMatch: 'full' },
 ];
 
