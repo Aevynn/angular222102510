@@ -16,11 +16,13 @@ import { Dashboard3Component } from './dashboard3/dashboard3.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { MahasiswaComponent } from './mahasiswa/mahasiswa.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ForexComponent } from './forex/forex.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    ForexComponent,
     DashboardComponent,
     RegisterComponent,
     AdminComponent,
